@@ -54,7 +54,7 @@ tests/
 ## 5. Step-by-Step Implementation Checklist
 
 ### Phase 1: Core Domain Models & Cryptographic Engine
-- [ ] 1.1 Strict domain data models in `vaultguard/models.py` (`AuditAction`, `AuditPayload`, `ChainBlock`, `VerificationResult`)
+- [x] 1.1 Strict domain data models in `vaultguard/models.py` (`AuditAction`, `AuditPayload`, `ChainBlock`, `VerificationResult`)
 - [ ] 1.2 Cryptographic hash-chaining engine in `vaultguard/engine.py` with canonical JSON serialization, SHA-256 hashing, and HMAC signatures
 
 ### Phase 2: Persistent Storage, Integrity Auditing & CLI
