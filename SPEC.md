@@ -55,7 +55,7 @@ tests/
 
 ### Phase 1: Core Domain Models & Cryptographic Engine
 - [x] 1.1 Strict domain data models in `vaultguard/models.py` (`AuditAction`, `AuditPayload`, `ChainBlock`, `VerificationResult`)
-- [ ] 1.2 Cryptographic hash-chaining engine in `vaultguard/engine.py` with canonical JSON serialization, SHA-256 hashing, and HMAC signatures
+- [x] 1.2 Cryptographic hash-chaining engine in `vaultguard/engine.py` with canonical JSON serialization, SHA-256 hashing, and HMAC signatures
 
 ### Phase 2: Persistent Storage, Integrity Auditing & CLI
 - [ ] 2.1 SQLite append-only storage in `vaultguard/storage.py` with chain verification and tamper detection
