@@ -58,5 +58,5 @@ tests/
 - [x] 1.2 Cryptographic hash-chaining engine in `vaultguard/engine.py` with canonical JSON serialization, SHA-256 hashing, and HMAC signatures
 
 ### Phase 2: Persistent Storage, Integrity Auditing & CLI
-- [ ] 2.1 SQLite append-only storage in `vaultguard/storage.py` with chain verification and tamper detection
-- [ ] 2.2 Command-line interface and tamper demonstration in `vaultguard/cli.py` (`append`, `verify`, `tamper-demo`)
+- [x] 2.1 SQLite append-only storage in `vaultguard/storage.py` with chain verification and tamper detection
+- [x] 2.2 Command-line interface and tamper demonstration in `vaultguard/cli.py` (`append`, `verify`, `tamper-demo`)
